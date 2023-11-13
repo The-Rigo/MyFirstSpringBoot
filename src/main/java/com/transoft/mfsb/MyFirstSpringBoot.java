@@ -1,6 +1,7 @@
 package com.transoft.mfsb;
 
 
+import com.transoft.mfsb.repository.CountryReposit;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -53,5 +54,11 @@ public class MyFirstSpringBoot {
                 contextPath,
                 env.getActiveProfiles()
         );
+        for (int i=0; i<1000 ; i++){
+
+        }
+        for (int i=0; i<1000 ; i++){
+
+        }
     }
 }
